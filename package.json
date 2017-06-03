@@ -1,0 +1,21 @@
+{
+  "name": "lola-clock",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "ht16k33-sevensegment-display": "git+https://github.com/wgbartley/ht16k33-sevensegment-display.git",
+    "i2c": "^0.2.3",
+    "node-dht-sensor": "0.0.32",
+    "particle-api-js": "^6.5.0",
+    "sensor_tsl2561": "git+https://github.com/wgbartley/tsl2561_node.git",
+    "wiring-pi": "^2.2.1",
+    "wiringpi-node": "^2.4.4"
+  }
+}
