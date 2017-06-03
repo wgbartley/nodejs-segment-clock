@@ -1,5 +1,7 @@
 var e = process.env;
 
+exports.verbose = (( e.VERBOSE || false ));
+
 exports.base_dir = __dirname;
 exports.music_dir = (( e.MUSIC_DIR || 'music' ));
 
