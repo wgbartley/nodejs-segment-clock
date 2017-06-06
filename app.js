@@ -1,6 +1,5 @@
 var config = require('./config');
 var Time = require('./lib/time');
-var RGBButton = require('./lib/rgb_button');
 var Player = require('./lib/player');
 var TSL2561 = require('sensor_tsl2561');
 var DHT = require('./lib/dht');
@@ -9,7 +8,6 @@ var ParticlePublish = require('./lib/particle-publish');
 console.log('CONFIG', config);
 
 var time = new Time();
-var rgb = new RGBButton();
 var player = new Player();
 var dht = new DHT();
 var pub = new ParticlePublish();
